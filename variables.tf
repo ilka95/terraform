@@ -18,3 +18,18 @@ variable "instance_family_image" {
   type        = string
   default     = "lemb"
 }
+variable "zone1" {
+  description = "subnet zone"
+  type        = string
+  default     = "ru-central1-a"
+}
+variable "zone2" {
+  description = "subnet zone"
+  type        = string
+  default     = "ru-central1-b"
+}
+variable "group_id" {
+  description = "group_id"
+  type        = string
+  default     = "enp5cvrtu79na4qsu9rp"
+}

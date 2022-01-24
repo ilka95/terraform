@@ -12,6 +12,7 @@ data "yandex_compute_image" "my_image" {
 }
 
 resource "yandex_compute_instance" "vm" {
+  zone = var.zone
   name = "terraform-${var.instance_family_image}"
 
   resources {

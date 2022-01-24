@@ -8,3 +8,8 @@ variable "vpc_subnet_id" {
   description = "VPC subnet network id"
   type        = string
 }
+
+variable "zone" {
+  description = "subnet zone"
+  type        = string
+}
